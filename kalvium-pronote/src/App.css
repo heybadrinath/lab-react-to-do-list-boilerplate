@@ -1,0 +1,49 @@
+body{
+    background-color: cyan;
+}
+
+input{
+    width: 200px;
+    padding: 5px;
+    font-size: 10pt;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+    text-align: center;
+    font-family: monospace;
+}
+
+h3,h2,h5{
+    margin-left: 80px;
+    font-family: monospace;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid green;
+    font-family: monospace;
+    text-align: center;
+    width: 100px;
+}
+
+button:hover{
+    scale: 1.2;
+    transition: 0.2s ease;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    scale: 1.05;
+    transition: 0.5s ease;
+}
+
+p{
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
